@@ -13,8 +13,9 @@ module RailsLogsIntruder
     yield(configuration)
   end
 
-  def self.put_log(message = @default_message)
-    Rails.logger.info message if defined?(Rails)
+  def self.put_message(message = nil)
+    message ||= self.configuration.default_message
+    puts message
   end
 
   # Class for RailsLogsIntruder configuration
