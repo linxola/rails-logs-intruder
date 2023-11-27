@@ -1,6 +1,6 @@
 # RailsLogsIntruder
 
-Very simple ruby gem that outputs your (or default one) text into Rails' logs
+Very simple ruby gem that outputs your (or default) text into Rails logs
 
 ## Usage example
 
@@ -25,7 +25,7 @@ Install the gem and add to the application's Gemfile by executing:
 
 Or you can manually add the gem to the application's Gemfile:
 
-    gem 'rails_logs_intruder', '~> 0.1.0'
+    gem 'rails_logs_intruder', '~> 0.1.1'
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 

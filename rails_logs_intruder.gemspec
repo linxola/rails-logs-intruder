@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.email = ["udevedu@skiff.com"]
 
   spec.summary = "Gem that outputs your text into Rails logs"
-  spec.homepage = "https://github.com/linxola/rails-logs-intruder"
+  spec.homepage = "https://github.com/linxola/rails_logs_intruder"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/linxola/rails-logs-intruder"
+  spec.metadata["source_code_uri"] = "https://github.com/linxola/rails_logs_intruder"
   spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files should be added to the gem when it is released.
